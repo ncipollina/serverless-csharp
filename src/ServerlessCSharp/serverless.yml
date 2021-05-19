@@ -1,0 +1,21 @@
+﻿service: serverless-csharp
+
+provider:
+  name: aws
+  runtime: dotnetcore3.1
+  logRetentionInDays: 14
+  lambdaHashingVersion: 20201221
+  
+package:
+  individually: true
+  
+functions:
+  csharp-skill:
+    handler: ServerlessCSharp::ServerlessCSharp.Functions::Get
+    description: Function to demonstrate C# with Serverless framework
+    package:
+      artifact: bin/release/netcoreapp3.1/serverless-csharp.zip
+    events:
+      - http:
+          path: hello
+          method: get  
