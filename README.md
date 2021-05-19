@@ -62,5 +62,5 @@ To deploy
 ```
 
 ## Video Links
-[YouTube](https://youtu.be/YDpvPoejruA)
-[Odysee](https://odysee.com/@ncipollina:2/serverless-csharp:7)
+* [YouTube](https://youtu.be/YDpvPoejruA)
+* [Odysee](https://odysee.com/@ncipollina:2/serverless-csharp:7)
